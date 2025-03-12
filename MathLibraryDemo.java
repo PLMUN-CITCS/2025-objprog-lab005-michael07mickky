@@ -4,17 +4,15 @@ public class MathLibraryDemo {
         int exponent = 3;
         double powerResult = Math.pow(base, exponent);
         double numberForSqrt = 16;
-        double sqrtResult = Math.sqrt(numberForSqrt);
+double sqrtResult = Math.sqrt(numberForSqrt);
+double decimalNumber = 5.67;
+long roundedNumber = Math.round(decimalNumber);
+double randomNumber = Math.random();
+System.out.println("Power: " + powerResult);
+System.out.println("Square Root: " + sqrtResult);
+System.out.println("Rounded Number: " + roundedNumber);
+System.out.println("Random Number: " + randomNumber);
 
-        double numberToRound = 5.7;
-        long roundedNumber = Math.round(numberToRound); // Fix: Define roundedNumber
-
-        double randomNumber = Math.random(); // Fix: Define randomNumber
-
-        System.out.println("Power: " + powerResult);
-        System.out.println("Square Root: " + sqrtResult);
-        System.out.println("Rounded Number: " + roundedNumber);
-        System.out.println("Random Number: " + randomNumber); // Fix: Add semicolon
     }
 }
 
